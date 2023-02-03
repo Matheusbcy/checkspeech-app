@@ -5,15 +5,15 @@ export const ContainerDepoimentos = styled.div`
   height: 50vh;
   display: flex;
   flex-wrap: wrap;
-
   align-items: flex-end;
   justify-content: center;
   @media (max-width: 1200px) {
-    height: 92vh;
+    height: 62rem;
+    margin-right: 5%;
   }
   @media (max-width: 800px) {
-    height: 138vh;
-    margin-right: 10%;
+    height: 88rem;
+    margin-right: 12%;
   }
 `
 export const ContainerDepo = styled.div`

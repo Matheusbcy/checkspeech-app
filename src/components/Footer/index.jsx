@@ -1,13 +1,11 @@
-import Formulario from "../Formulario"
-import { DivFooter } from "./style"
+import Rodape from "../Rodape";
 
-
-function Footer () {
+function Footer() {
   return (
-    <DivFooter>
-          <Formulario />
-    </DivFooter>
-  )
+    <>
+      <Rodape />
+    </>
+  );
 }
 
-export default Footer
+export default Footer;

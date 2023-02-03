@@ -1,9 +1,9 @@
-import ReCAPTCHA from "react-google-recaptcha"
+// import ReCAPTCHA from "react-google-recaptcha"
 
 function Formulario() {
 
   return (
-    <div className="card">
+    <div id="formulario" className="card">
       <div className="card-header">
         <h5 className="mb-0">Contato</h5>
       </div>
@@ -54,7 +54,7 @@ function Formulario() {
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-12">
             <div class="form-group">
               <label for="nacionalidade">Nacionalidade</label>
               <select id="nacionalidade" class="form-control">
@@ -381,7 +381,7 @@ function Formulario() {
                   className="form-control mt-3"
                   id="nome"
                   placeholder=""
-                  style={{ height: "150px" }}
+                  style={{ height: "50px" }}
                 />
               </div>
             </div>
@@ -401,14 +401,13 @@ function Formulario() {
               </div>
             </div>
           </div>
-          <div class="form-row mt-4">
+          {/* <div class="form-row mt-4">
             <div class="col-12">
               <ReCAPTCHA
-                sitekey="6LcZ6zYjAAAAACFJesvYO6KGOiCnYvCPWv8sNig-"
+                sitekey="6LdT8jYjAAAAAN9azD8kWtgRhXx-TQwEAeJy2hVG"
               />
             </div>
-            
-          </div>
+          </div> */}
         </form>
       </div>
     </div>

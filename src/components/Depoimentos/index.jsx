@@ -10,28 +10,28 @@ function Depoimentos() {
       id: 1,
       nome: "Roberta",
       depoimento:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut unde nam alias atque fugit totam obcaecati voluptates, ullam accusamus facilis et corrupti. Illum iure quibusdam dignissimos! Unde, cum totam! Fuga!",
+        '"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut unde nam alias atque fugit totam obcaecati voluptates, ullam accusamus facilis et corrupti. Illum iure quibusdam dignissimos! Unde, cum totam! Fuga!"',
       foto: imagem1,
     },
     {
       id: 2,
       nome: "Roberto",
       depoimento:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut unde nam alias atque fugit totam obcaecati voluptates, ullam accusamus facilis et corrupti. Illum iure quibusdam dignissimos! Unde, cum totam! Fuga!",
+        '"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut unde nam alias atque fugit totam obcaecati voluptates, ullam accusamus facilis et corrupti. Illum iure quibusdam dignissimos! Unde, cum totam! Fuga!"',
       foto: imagem2,
     },
     {
       id: 3,
       nome: "Ronaldo",
       depoimento:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut unde nam alias atque fugit totam obcaecati voluptates, ullam accusamus facilis et corrupti. Illum iure quibusdam dignissimos! Unde, cum totam! Fuga!",
+        '"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut unde nam alias atque fugit totam obcaecati voluptates, ullam accusamus facilis et corrupti. Illum iure quibusdam dignissimos! Unde, cum totam! Fuga!"',
       foto: imagem3,
     },
   ];
   return (
-    <ContainerDepo>
+    <ContainerDepo id="clientes" >
       <h1 className="mt-5">Depoimentos</h1>
-      <ContainerDepoimentos>
+      <ContainerDepoimentos >
         {depoimentos.map((post) => (
           <CardDepoimento
             key={post.id}
